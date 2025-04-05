@@ -13,6 +13,19 @@ This is an intelligent assistant that reads emails from Gmail, summarizes and un
 - **Serper.dev (Google Search API)** – for info enrichment
 - **OAuth 2.0** – for secure Gmail & Calendar access
 
+
+## 🧠 How It Works
+
+1. **Reads Emails**: Uses Gmail API to fetch the latest emails
+2. **Summarizes & Understands**: Summarizes emails and detects intent using LLM
+3. **Handles Info Requests**: Uses web search if email asks a question
+4. **Generates Smart Replies**: With FLAN-T5 for selected intents
+5. **Skips Unsafe Emails**: Promotional/spam/vague emails are skipped
+6. **Sends Confirmed Replies**: User confirms each reply before it's sent
+7. **Books Calendar Events**: Creates meetings via Google Calendar API
+8. **Dashboard View**: Streamlit UI to view processed emails and replies
+
+
 ---
 
 ![Screenshot 2025-04-05 152020](https://github.com/user-attachments/assets/a4b39b22-041f-4753-be0e-0bd9c7335b6a)
