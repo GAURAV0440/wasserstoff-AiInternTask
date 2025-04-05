@@ -15,8 +15,6 @@ This is an intelligent assistant that reads emails from Gmail, summarizes and un
 
 ---
 
-
-
-![Screenshot 2025-04-05 152120](https://github.com/user-attachments/assets/2f70df0a-45b3-4ed5-ac6d-b5b3b39342e1)
 ![Screenshot 2025-04-05 152020](https://github.com/user-attachments/assets/a4b39b22-041f-4753-be0e-0bd9c7335b6a)
 ![Screenshot 2025-04-05 152051](https://github.com/user-attachments/assets/07d29f17-0d46-4483-a237-40eb5639f3ad)
+![Screenshot 2025-04-05 152120](https://github.com/user-attachments/assets/2f70df0a-45b3-4ed5-ac6d-b5b3b39342e1)
