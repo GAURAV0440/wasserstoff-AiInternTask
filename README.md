@@ -43,6 +43,35 @@ python send_replies.py           # Confirm + send replies
 streamlit run app.py
 
 
+## Libraries used:
+
+transformers – for summarizing emails and generating replies using FLAN-T5 and BART models
+
+google-api-python-client – to access Gmail and Google Calendar APIs
+
+google-auth, google-auth-oauthlib – to handle Google login securely
+
+python-dotenv – to load secret API key from the .env file
+
+requests – to fetch web search results from Serper.dev
+
+streamlit – to create a simple dashboard
+
+sqlite3 (built-in) – to store email data locally
+
+base64, json, os, datetime (built-in) – for data handling and email formatting
+
+## APIs and external tools:
+
+Gmail API – to fetch and send emails
+
+Google Calendar API – to schedule meetings
+
+Hugging Face Transformers – to summarize and generate replies
+
+Serper.dev – to perform web search for info request emails
+
+
 ---
 
 ![Screenshot 2025-04-05 152020](https://github.com/user-attachments/assets/a4b39b22-041f-4753-be0e-0bd9c7335b6a)
