@@ -26,6 +26,17 @@ This is an intelligent assistant that reads emails from Gmail, summarizes and un
 8. **Dashboard View**: Streamlit UI to view processed emails and replies
 
 
+## Run in this order:
+
+python upgrade_db.py              # Setup DB
+python email_reader.py           # Fetch Gmail emails
+python analyze_emails.py         # Summarize + detect intent
+python generate_replies.py       # Generate safe replies
+python calendar_event_creator.py # Optional: add meetings
+python send_replies.py           # Confirm + send replies
+streamlit run app.py
+
+
 ---
 
 ![Screenshot 2025-04-05 152020](https://github.com/user-attachments/assets/a4b39b22-041f-4753-be0e-0bd9c7335b6a)
